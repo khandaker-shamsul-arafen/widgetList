@@ -26,8 +26,13 @@ class ZoomImageView extends GetView<ZoomImageController> {
   buildImage() =>
       Obx(() {
         return GestureDetector(
+          onDoubleTapDown:(details) =>controller.tapDownDetails=details ,
           onDoubleTap: () {
+            final position =controller.tapDownDetails!.localPosition;
+
             final double scale = 3;
+            final x= -position.dx *(scale-1);
+            final y= -position.dy *(scale-1);
             final zoomed = Matrix4.identity()
               ..scale(scale);
             final value2 = zoomed;

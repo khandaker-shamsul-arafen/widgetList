@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 class ZoomImageController extends GetxController {
   //TODO: Implement ZoomImageController
   Rx<TransformationController> controllerr=TransformationController().obs;
-
+   TapDownDetails?tapDownDetails;
 
   final count = 0.obs;
 
