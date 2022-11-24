@@ -4,6 +4,8 @@ import '../modules/BottomSheet/bindings/bottom_sheet_binding.dart';
 import '../modules/BottomSheet/views/bottom_sheet_view.dart';
 import '../modules/CheckBox/bindings/check_box_binding.dart';
 import '../modules/CheckBox/views/check_box_view.dart';
+import '../modules/DatePicker/bindings/date_picker_binding.dart';
+import '../modules/DatePicker/views/date_picker_view.dart';
 import '../modules/DragDrop/bindings/drag_drop_binding.dart';
 import '../modules/DragDrop/views/drag_drop_view.dart';
 import '../modules/ExpansionPanel/bindings/expansion_panel_binding.dart';
@@ -99,6 +101,11 @@ class AppPages {
       name: _Paths.SEARCH_TEXTFIELD,
       page: () => const SearchTextfieldView(),
       binding: SearchTextfieldBinding(),
+    ),
+    GetPage(
+      name: _Paths.DATE_PICKER,
+      page: () => const DatePickerView(),
+      binding: DatePickerBinding(),
     ),
   ];
 }

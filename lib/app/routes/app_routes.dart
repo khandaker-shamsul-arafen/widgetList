@@ -17,6 +17,7 @@ abstract class Routes {
   static const REORDERABLE_LIST = _Paths.REORDERABLE_LIST;
   static const REORDERABLE = _Paths.REORDERABLE;
   static const SEARCH_TEXTFIELD = _Paths.SEARCH_TEXTFIELD;
+  static const DATE_PICKER = _Paths.DATE_PICKER;
 }
 
 abstract class _Paths {
@@ -35,4 +36,5 @@ abstract class _Paths {
   static const REORDERABLE_LIST = '/reorderable-list';
   static const REORDERABLE = '/reorderable';
   static const SEARCH_TEXTFIELD = '/search-textfield';
+  static const DATE_PICKER = '/date-picker';
 }
