@@ -12,6 +12,11 @@ abstract class Routes {
   static const EXPANSION_PANEL = _Paths.EXPANSION_PANEL;
   static const POPUM_MENU = _Paths.POPUM_MENU;
   static const ZOOM_IMAGE = _Paths.ZOOM_IMAGE;
+  static const RESPONSIVE = _Paths.RESPONSIVE;
+  static const DRAG_DROP = _Paths.DRAG_DROP;
+  static const REORDERABLE_LIST = _Paths.REORDERABLE_LIST;
+  static const REORDERABLE = _Paths.REORDERABLE;
+  static const SEARCH_TEXTFIELD = _Paths.SEARCH_TEXTFIELD;
 }
 
 abstract class _Paths {
@@ -25,4 +30,9 @@ abstract class _Paths {
   static const EXPANSION_PANEL = '/expansion-panel';
   static const POPUM_MENU = '/popum-menu';
   static const ZOOM_IMAGE = '/zoom-image';
+  static const RESPONSIVE = '/responsive';
+  static const DRAG_DROP = '/drag-drop';
+  static const REORDERABLE_LIST = '/reorderable-list';
+  static const REORDERABLE = '/reorderable';
+  static const SEARCH_TEXTFIELD = '/search-textfield';
 }

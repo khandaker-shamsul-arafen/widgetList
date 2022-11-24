@@ -18,10 +18,10 @@ class HomeController extends GetxController {
    path(name: "TabBar", route: (){Get.toNamed(Routes.EXPANSION_PANEL);}),
    path(name: "Popup Menu", route: (){Get.toNamed(Routes.POPUM_MENU);}),
    path(name: "ZoomImage", route: (){Get.toNamed(Routes.ZOOM_IMAGE);}),
-   path(name: "PageView", route: (){Get.toNamed(Routes.PAGE_VIEW);}),
-   path(name: "PageView", route: (){Get.toNamed(Routes.PAGE_VIEW);}),
-   path(name: "PageView", route: (){Get.toNamed(Routes.PAGE_VIEW);}),
-   path(name: "PageView", route: (){Get.toNamed(Routes.PAGE_VIEW);})
+   path(name: "Responsive", route: (){Get.toNamed(Routes.RESPONSIVE);}),
+   path(name: "DragDrop", route: (){Get.toNamed(Routes.DRAG_DROP);}),
+   path(name: "Reorderable", route: (){Get.toNamed(Routes.REORDERABLE);}),
+   path(name: "SearchTextField", route: (){Get.toNamed(Routes.SEARCH_TEXTFIELD);})
  ];
 
 
