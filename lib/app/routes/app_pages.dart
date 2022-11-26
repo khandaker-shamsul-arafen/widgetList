@@ -1,7 +1,13 @@
 import 'package:get/get.dart';
 
+import '../modules/AnimatedPadding/bindings/animated_padding_binding.dart';
+import '../modules/AnimatedPadding/views/animated_padding_view.dart';
+import '../modules/AppBar/bindings/app_bar_binding.dart';
+import '../modules/AppBar/views/app_bar_view.dart';
 import '../modules/BottomSheet/bindings/bottom_sheet_binding.dart';
 import '../modules/BottomSheet/views/bottom_sheet_view.dart';
+import '../modules/CachedNetworkImage/bindings/cached_network_image_binding.dart';
+import '../modules/CachedNetworkImage/views/cached_network_image_view.dart';
 import '../modules/CheckBox/bindings/check_box_binding.dart';
 import '../modules/CheckBox/views/check_box_view.dart';
 import '../modules/DatePicker/bindings/date_picker_binding.dart';
@@ -12,6 +18,12 @@ import '../modules/ExpansionPanel/bindings/expansion_panel_binding.dart';
 import '../modules/ExpansionPanel/views/expansion_panel_view.dart';
 import '../modules/ExpansitionTile/bindings/expansition_tile_binding.dart';
 import '../modules/ExpansitionTile/views/expansition_tile_view.dart';
+import '../modules/Flexible/bindings/flexible_binding.dart';
+import '../modules/Flexible/views/flexible_view.dart';
+import '../modules/FlutterLogo/bindings/flutter_logo_binding.dart';
+import '../modules/FlutterLogo/views/flutter_logo_view.dart';
+import '../modules/Holiday/bindings/holiday_binding.dart';
+import '../modules/Holiday/views/holiday_view.dart';
 import '../modules/Home/bindings/home_binding.dart';
 import '../modules/Home/views/home_view.dart';
 import '../modules/PageView/bindings/page_view_binding.dart';
@@ -24,8 +36,18 @@ import '../modules/Reorderable/bindings/reorderable_binding.dart';
 import '../modules/Reorderable/views/reorderable_view.dart';
 import '../modules/Responsive/bindings/responsive_binding.dart';
 import '../modules/Responsive/views/responsive_view.dart';
+import '../modules/RotedBox/bindings/roted_box_binding.dart';
+import '../modules/RotedBox/views/roted_box_view.dart';
 import '../modules/SearchTextfield/bindings/search_textfield_binding.dart';
 import '../modules/SearchTextfield/views/search_textfield_view.dart';
+import '../modules/SelecttableText/bindings/selecttable_text_binding.dart';
+import '../modules/SelecttableText/views/selecttable_text_view.dart';
+import '../modules/Spacer/bindings/spacer_binding.dart';
+import '../modules/Spacer/views/spacer_view.dart';
+import '../modules/ToggleButton/bindings/toggle_button_binding.dart';
+import '../modules/ToggleButton/views/toggle_button_view.dart';
+import '../modules/Tooltip/bindings/tooltip_binding.dart';
+import '../modules/Tooltip/views/tooltip_view.dart';
 import '../modules/ZoomImage/bindings/zoom_image_binding.dart';
 import '../modules/ZoomImage/views/zoom_image_view.dart';
 
@@ -106,6 +128,61 @@ class AppPages {
       name: _Paths.DATE_PICKER,
       page: () => const DatePickerView(),
       binding: DatePickerBinding(),
+    ),
+    GetPage(
+      name: _Paths.HOLIDAY,
+      page: () => const HolidayView(),
+      binding: HolidayBinding(),
+    ),
+    GetPage(
+      name: _Paths.APP_BAR,
+      page: () => const AppBarView(),
+      binding: AppBarBinding(),
+    ),
+    GetPage(
+      name: _Paths.FLUTTER_LOGO,
+      page: () => const FlutterLogoView(),
+      binding: FlutterLogoBinding(),
+    ),
+    GetPage(
+      name: _Paths.TOGGLE_BUTTON,
+      page: () => const ToggleButtonView(),
+      binding: ToggleButtonBinding(),
+    ),
+    GetPage(
+      name: _Paths.ANIMATED_PADDING,
+      page: () => const AnimatedPaddingView(),
+      binding: AnimatedPaddingBinding(),
+    ),
+    GetPage(
+      name: _Paths.SELECTTABLE_TEXT,
+      page: () => const SelecttableTextView(),
+      binding: SelecttableTextBinding(),
+    ),
+    GetPage(
+      name: _Paths.SPACER,
+      page: () => const SpacerView(),
+      binding: SpacerBinding(),
+    ),
+    GetPage(
+      name: _Paths.FLEXIBLE,
+      page: () => const FlexibleView(),
+      binding: FlexibleBinding(),
+    ),
+    GetPage(
+      name: _Paths.TOOLTIP,
+      page: () => const TooltipView(),
+      binding: TooltipBinding(),
+    ),
+    GetPage(
+      name: _Paths.ROTED_BOX,
+      page: () => const RotedBoxView(),
+      binding: RotedBoxBinding(),
+    ),
+    GetPage(
+      name: _Paths.CACHED_NETWORK_IMAGE,
+      page: () => const CachedNetworkImageView(),
+      binding: CachedNetworkImageBinding(),
     ),
   ];
 }

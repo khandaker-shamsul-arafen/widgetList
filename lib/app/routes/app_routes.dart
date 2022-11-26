@@ -18,6 +18,17 @@ abstract class Routes {
   static const REORDERABLE = _Paths.REORDERABLE;
   static const SEARCH_TEXTFIELD = _Paths.SEARCH_TEXTFIELD;
   static const DATE_PICKER = _Paths.DATE_PICKER;
+  static const HOLIDAY = _Paths.HOLIDAY;
+  static const APP_BAR = _Paths.APP_BAR;
+  static const FLUTTER_LOGO = _Paths.FLUTTER_LOGO;
+  static const TOGGLE_BUTTON = _Paths.TOGGLE_BUTTON;
+  static const ANIMATED_PADDING = _Paths.ANIMATED_PADDING;
+  static const SELECTTABLE_TEXT = _Paths.SELECTTABLE_TEXT;
+  static const SPACER = _Paths.SPACER;
+  static const FLEXIBLE = _Paths.FLEXIBLE;
+  static const TOOLTIP = _Paths.TOOLTIP;
+  static const ROTED_BOX = _Paths.ROTED_BOX;
+  static const CACHED_NETWORK_IMAGE = _Paths.CACHED_NETWORK_IMAGE;
 }
 
 abstract class _Paths {
@@ -37,4 +48,15 @@ abstract class _Paths {
   static const REORDERABLE = '/reorderable';
   static const SEARCH_TEXTFIELD = '/search-textfield';
   static const DATE_PICKER = '/date-picker';
+  static const HOLIDAY = '/holiday';
+  static const APP_BAR = '/app-bar';
+  static const FLUTTER_LOGO = '/flutter-logo';
+  static const TOGGLE_BUTTON = '/toggle-button';
+  static const ANIMATED_PADDING = '/animated-padding';
+  static const SELECTTABLE_TEXT = '/selecttable-text';
+  static const SPACER = '/spacer';
+  static const FLEXIBLE = '/flexible';
+  static const TOOLTIP = '/tooltip';
+  static const ROTED_BOX = '/roted-box';
+  static const CACHED_NETWORK_IMAGE = '/cached-network-image';
 }
