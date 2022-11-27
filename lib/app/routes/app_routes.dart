@@ -37,6 +37,8 @@ abstract class Routes {
 
   static const WILL_POP_SCOPE = _Paths.WILL_POP_SCOPE;
   static const VISIBILITY = _Paths.VISIBILITY;
+  static const TIME = _Paths.TIME;
+  static const INTRINSIC_HEIGHT = _Paths.INTRINSIC_HEIGHT;
 }
 
 abstract class _Paths {
@@ -75,4 +77,6 @@ abstract class _Paths {
 
   static const WILL_POP_SCOPE = '/will-pop-scope';
   static const VISIBILITY = '/visibility';
+  static const TIME = '/time';
+  static const INTRINSIC_HEIGHT = '/intrinsic-height';
 }

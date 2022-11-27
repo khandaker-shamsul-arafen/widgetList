@@ -73,11 +73,11 @@ class HolidayController extends GetxController {
 
   }
   ),
-  holidaylist(name: "SelectableText", path: (){ Get.toNamed(Routes.SELECTTABLE_TEXT);
+  holidaylist(name: "Time", path: (){ Get.toNamed(Routes.TIME);
 
   }
   ),
-  holidaylist(name: "Spacer", path: (){ Get.toNamed(Routes.SPACER);
+  holidaylist(name: "Intrinsicheight", path: (){ Get.toNamed(Routes.INTRINSIC_HEIGHT);
 
   }
   ),

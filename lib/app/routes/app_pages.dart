@@ -28,6 +28,8 @@ import '../modules/Holiday/bindings/holiday_binding.dart';
 import '../modules/Holiday/views/holiday_view.dart';
 import '../modules/Home/bindings/home_binding.dart';
 import '../modules/Home/views/home_view.dart';
+import '../modules/IntrinsicHeight/bindings/intrinsic_height_binding.dart';
+import '../modules/IntrinsicHeight/views/intrinsic_height_view.dart';
 import '../modules/PageView/bindings/page_view_binding.dart';
 import '../modules/PageView/views/page_view_view.dart';
 import '../modules/PopumMenu/bindings/popum_menu_binding.dart';
@@ -52,6 +54,8 @@ import '../modules/Spacer/bindings/spacer_binding.dart';
 import '../modules/Spacer/views/spacer_view.dart';
 import '../modules/Table/bindings/table_binding.dart';
 import '../modules/Table/views/table_view.dart';
+import '../modules/Time/bindings/time_binding.dart';
+import '../modules/Time/views/time_view.dart';
 import '../modules/ToggleButton/bindings/toggle_button_binding.dart';
 import '../modules/ToggleButton/views/toggle_button_view.dart';
 import '../modules/Tooltip/bindings/tooltip_binding.dart';
@@ -225,6 +229,16 @@ class AppPages {
       name: _Paths.VISIBILITY,
       page: () => const VisibilityView(),
       binding: VisibilityBinding(),
+    ),
+    GetPage(
+      name: _Paths.TIME,
+      page: () => const TimeView(),
+      binding: TimeBinding(),
+    ),
+    GetPage(
+      name: _Paths.INTRINSIC_HEIGHT,
+      page: () => const IntrinsicHeightView(),
+      binding: IntrinsicHeightBinding(),
     ),
   ];
 }
