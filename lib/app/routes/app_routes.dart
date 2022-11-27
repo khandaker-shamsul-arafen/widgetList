@@ -29,6 +29,14 @@ abstract class Routes {
   static const TOOLTIP = _Paths.TOOLTIP;
   static const ROTED_BOX = _Paths.ROTED_BOX;
   static const CACHED_NETWORK_IMAGE = _Paths.CACHED_NETWORK_IMAGE;
+  static const TABLE = _Paths.TABLE;
+  static const SILVER_APP_BAR = _Paths.SILVER_APP_BAR;
+  static const SILVER_LISTAND_SILVER_GRID = _Paths.SILVER_LISTAND_SILVER_GRID;
+
+  static const HEROU = _Paths.HEROU;
+
+  static const WILL_POP_SCOPE = _Paths.WILL_POP_SCOPE;
+  static const VISIBILITY = _Paths.VISIBILITY;
 }
 
 abstract class _Paths {
@@ -59,4 +67,12 @@ abstract class _Paths {
   static const TOOLTIP = '/tooltip';
   static const ROTED_BOX = '/roted-box';
   static const CACHED_NETWORK_IMAGE = '/cached-network-image';
+  static const TABLE = '/table';
+  static const SILVER_APP_BAR = '/silver-app-bar';
+  static const SILVER_LISTAND_SILVER_GRID = '/silver-listand-silver-grid';
+
+  static const HEROU = '/herou';
+
+  static const WILL_POP_SCOPE = '/will-pop-scope';
+  static const VISIBILITY = '/visibility';
 }

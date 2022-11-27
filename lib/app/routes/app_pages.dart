@@ -22,6 +22,8 @@ import '../modules/Flexible/bindings/flexible_binding.dart';
 import '../modules/Flexible/views/flexible_view.dart';
 import '../modules/FlutterLogo/bindings/flutter_logo_binding.dart';
 import '../modules/FlutterLogo/views/flutter_logo_view.dart';
+import '../modules/Herou/bindings/herou_binding.dart';
+import '../modules/Herou/views/herou_view.dart';
 import '../modules/Holiday/bindings/holiday_binding.dart';
 import '../modules/Holiday/views/holiday_view.dart';
 import '../modules/Home/bindings/home_binding.dart';
@@ -42,12 +44,22 @@ import '../modules/SearchTextfield/bindings/search_textfield_binding.dart';
 import '../modules/SearchTextfield/views/search_textfield_view.dart';
 import '../modules/SelecttableText/bindings/selecttable_text_binding.dart';
 import '../modules/SelecttableText/views/selecttable_text_view.dart';
+import '../modules/SilverAppBar/bindings/silver_app_bar_binding.dart';
+import '../modules/SilverAppBar/views/silver_app_bar_view.dart';
+import '../modules/SilverListandSilverGrid/bindings/silver_listand_silver_grid_binding.dart';
+import '../modules/SilverListandSilverGrid/views/silver_listand_silver_grid_view.dart';
 import '../modules/Spacer/bindings/spacer_binding.dart';
 import '../modules/Spacer/views/spacer_view.dart';
+import '../modules/Table/bindings/table_binding.dart';
+import '../modules/Table/views/table_view.dart';
 import '../modules/ToggleButton/bindings/toggle_button_binding.dart';
 import '../modules/ToggleButton/views/toggle_button_view.dart';
 import '../modules/Tooltip/bindings/tooltip_binding.dart';
 import '../modules/Tooltip/views/tooltip_view.dart';
+import '../modules/Visibility/bindings/visibility_binding.dart';
+import '../modules/Visibility/views/visibility_view.dart';
+import '../modules/WillPopScope/bindings/will_pop_scope_binding.dart';
+import '../modules/WillPopScope/views/will_pop_scope_view.dart';
 import '../modules/ZoomImage/bindings/zoom_image_binding.dart';
 import '../modules/ZoomImage/views/zoom_image_view.dart';
 
@@ -183,6 +195,36 @@ class AppPages {
       name: _Paths.CACHED_NETWORK_IMAGE,
       page: () => const CachedNetworkImageView(),
       binding: CachedNetworkImageBinding(),
+    ),
+    GetPage(
+      name: _Paths.TABLE,
+      page: () => const TableView(),
+      binding: TableBinding(),
+    ),
+    GetPage(
+      name: _Paths.SILVER_APP_BAR,
+      page: () => const SilverAppBarView(),
+      binding: SilverAppBarBinding(),
+    ),
+    GetPage(
+      name: _Paths.SILVER_LISTAND_SILVER_GRID,
+      page: () => const SilverListandSilverGridView(),
+      binding: SilverListandSilverGridBinding(),
+    ),
+    GetPage(
+      name: _Paths.HEROU,
+      page: () => const HerouView(),
+      binding: HerouBinding(),
+    ),
+    GetPage(
+      name: _Paths.WILL_POP_SCOPE,
+      page: () => const WillPopScopeView(),
+      binding: WillPopScopeBinding(),
+    ),
+    GetPage(
+      name: _Paths.VISIBILITY,
+      page: () => const VisibilityView(),
+      binding: VisibilityBinding(),
     ),
   ];
 }

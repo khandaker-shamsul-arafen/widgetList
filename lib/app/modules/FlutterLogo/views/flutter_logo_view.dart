@@ -16,11 +16,11 @@ class FlutterLogoView extends GetView<FlutterLogoController> {
       body: Center(
         child: Obx(
 
-          ()=> const FlutterLogo(
+          ()=>  FlutterLogo(
             size:100,
             textColor: Colors.blueAccent,
             style: FlutterLogoStyle.stacked,
-            duration: Duration(seconds:5),
+           duration: Duration(seconds:controller.count.value),
             curve: Curves.bounceInOut,
 
 

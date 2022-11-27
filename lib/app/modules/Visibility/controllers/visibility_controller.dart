@@ -1,9 +1,10 @@
 import 'package:get/get.dart';
 
-class FlutterLogoController extends GetxController {
-  //TODO: Implement FlutterLogoController
+class VisibilityController extends GetxController {
+  //TODO: Implement VisibilityController
+  final isVisible =true.obs ;
 
-  final count = 5.obs;
+  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();

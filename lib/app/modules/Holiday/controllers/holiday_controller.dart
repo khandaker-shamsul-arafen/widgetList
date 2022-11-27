@@ -49,14 +49,62 @@ class HolidayController extends GetxController {
 
     }
     ),
-    holidaylist(name: "AppBar", path: (){ Get.toNamed(Routes.APP_BAR);
+    holidaylist(name: "Table", path: (){ Get.toNamed(Routes.TABLE);
 
     }
     ),
-    holidaylist(name: "AppBar", path: (){ Get.toNamed(Routes.APP_BAR);
+    holidaylist(name: "SilvarAppBar", path: (){ Get.toNamed(Routes.SILVER_APP_BAR);
 
     }
     ),
+  holidaylist(name: "SilverList and SilverGrid", path: (){ Get.toNamed(Routes.SILVER_LISTAND_SILVER_GRID);
+
+  }
+  ),
+  holidaylist(name: "Hero", path: (){ Get.toNamed(Routes.HEROU);
+
+  }
+  ),
+  holidaylist(name: "WillPopScope", path: (){ Get.toNamed(Routes.WILL_POP_SCOPE);
+
+  }
+  ),
+  holidaylist(name: "Visibility", path: (){ Get.toNamed(Routes.VISIBILITY);
+
+  }
+  ),
+  holidaylist(name: "SelectableText", path: (){ Get.toNamed(Routes.SELECTTABLE_TEXT);
+
+  }
+  ),
+  holidaylist(name: "Spacer", path: (){ Get.toNamed(Routes.SPACER);
+
+  }
+  ),
+  holidaylist(name: "Flexible", path: (){ Get.toNamed(Routes.FLEXIBLE);
+
+  }
+  ),
+  holidaylist(name: "Tooltip", path: (){ Get.toNamed(Routes.TOOLTIP);
+
+  }
+  ),
+  holidaylist(name: "RotatedBox", path: (){ Get.toNamed(Routes.ROTED_BOX);
+
+  }
+  ),
+  holidaylist(name: "CachedNetworkImage", path: (){ Get.toNamed(Routes.CACHED_NETWORK_IMAGE);
+
+  }
+  ),
+  holidaylist(name: "Table", path: (){ Get.toNamed(Routes.TABLE);
+
+  }
+  ),
+  holidaylist(name: "SilvarAppBar", path: (){ Get.toNamed(Routes.SILVER_APP_BAR);
+
+  }
+  ),
 
 
 

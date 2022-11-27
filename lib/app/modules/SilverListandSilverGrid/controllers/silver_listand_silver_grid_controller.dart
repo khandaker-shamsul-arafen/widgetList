@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
-class FlutterLogoController extends GetxController {
-  //TODO: Implement FlutterLogoController
+class SilverListandSilverGridController extends GetxController {
+  //TODO: Implement SilverListandSilverGridController
 
-  final count = 5.obs;
+  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
