@@ -81,7 +81,7 @@ class HolidayController extends GetxController {
 
   }
   ),
-  holidaylist(name: "Flexible", path: (){ Get.toNamed(Routes.FLEXIBLE);
+  holidaylist(name: "CHIP", path: (){ Get.toNamed(Routes.CHIP);
 
   }
   ),
@@ -97,7 +97,7 @@ class HolidayController extends GetxController {
 
   }
   ),
-  holidaylist(name: "Table", path: (){ Get.toNamed(Routes.TABLE);
+  holidaylist(name: "Stepper", path: (){ Get.toNamed(Routes.STEPPER);
 
   }
   ),

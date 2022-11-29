@@ -10,6 +10,8 @@ import '../modules/CachedNetworkImage/bindings/cached_network_image_binding.dart
 import '../modules/CachedNetworkImage/views/cached_network_image_view.dart';
 import '../modules/CheckBox/bindings/check_box_binding.dart';
 import '../modules/CheckBox/views/check_box_view.dart';
+import '../modules/Chip/bindings/chip_binding.dart';
+import '../modules/Chip/views/chip_view.dart';
 import '../modules/DatePicker/bindings/date_picker_binding.dart';
 import '../modules/DatePicker/views/date_picker_view.dart';
 import '../modules/DragDrop/bindings/drag_drop_binding.dart';
@@ -52,6 +54,8 @@ import '../modules/SilverListandSilverGrid/bindings/silver_listand_silver_grid_b
 import '../modules/SilverListandSilverGrid/views/silver_listand_silver_grid_view.dart';
 import '../modules/Spacer/bindings/spacer_binding.dart';
 import '../modules/Spacer/views/spacer_view.dart';
+import '../modules/Stepper/bindings/stepper_binding.dart';
+import '../modules/Stepper/views/stepper_view.dart';
 import '../modules/Table/bindings/table_binding.dart';
 import '../modules/Table/views/table_view.dart';
 import '../modules/Time/bindings/time_binding.dart';
@@ -239,6 +243,16 @@ class AppPages {
       name: _Paths.INTRINSIC_HEIGHT,
       page: () => const IntrinsicHeightView(),
       binding: IntrinsicHeightBinding(),
+    ),
+    GetPage(
+      name: _Paths.CHIP,
+      page: () => const ChipView(),
+      binding: ChipBinding(),
+    ),
+    GetPage(
+      name: _Paths.STEPPER,
+      page: () => const StepperView(),
+      binding: StepperBinding(),
     ),
   ];
 }

@@ -39,6 +39,8 @@ abstract class Routes {
   static const VISIBILITY = _Paths.VISIBILITY;
   static const TIME = _Paths.TIME;
   static const INTRINSIC_HEIGHT = _Paths.INTRINSIC_HEIGHT;
+  static const CHIP = _Paths.CHIP;
+  static const STEPPER = _Paths.STEPPER;
 }
 
 abstract class _Paths {
@@ -79,4 +81,6 @@ abstract class _Paths {
   static const VISIBILITY = '/visibility';
   static const TIME = '/time';
   static const INTRINSIC_HEIGHT = '/intrinsic-height';
+  static const CHIP = '/chip';
+  static const STEPPER = '/stepper';
 }
